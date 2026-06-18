@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sourav Rawat — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <div class="logo">SR</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#home"           class="mob-link">Home</a></li>
+      <li><a href="#about"          class="mob-link">About</a></li>
+      <li><a href="#skills"         class="mob-link">Skills</a></li>
+      <li><a href="#certifications" class="mob-link">Certifications</a></li>
+      <li><a href="#projects"       class="mob-link">Projects</a></li>
+    </ul>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+
+      <div class="profile-wrap reveal">
+        <div class="profile-frame">
+          <img src="profile.jpg" alt="Sourav Rawat" />
+        </div>
+        <div class="status-dot" title="Open to opportunities"></div>
+      </div>
+
+      <div class="hero-text reveal delay-1">
+        <span class="eyebrow">Hi, I'm</span>
+        <h1>Sourav <span class="accent">Rawat</span></h1>
+        <p class="tagline">CMA Aspirant &nbsp;·&nbsp; Tech Enthusiast &nbsp;·&nbsp; Analytics Explorer</p>
+        <p class="hero-desc">
+          Blending finance, data analytics, and digital innovation to build smarter systems and meaningful solutions.
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="#about" class="btn-outline">About Me</a>
+        </div>
+        <div class="hero-social">
+          <a href="mailto:souravrawat7050@gmail.com" class="hs-link" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="https://www.instagram.com/sourav.thisside" target="_blank" rel="noopener" class="hs-link" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://t.me/Sourab_Rawat" target="_blank" rel="noopener" class="hs-link" aria-label="Telegram">
+            <i class="fa-brands fa-telegram"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+    <div class="scroll-hint"><span></span></div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section section-alt" id="about">
+    <div class="container">
+      <p class="section-label reveal">About</p>
+      <h2 class="section-title reveal delay-1">Who I Am</h2>
+
+      <div class="about-grid">
+        <div class="about-text reveal delay-1">
+          <p>
+            I'm <strong>Sourav Rawat</strong>, a CMA Aspirant and technology enthusiast with a strong passion
+            for analytics, finance, digital tools, and emerging technologies.
+          </p>
+          <p>
+            My journey combines business understanding with technical curiosity — exploring web technologies,
+            AI tools, data analytics, and productivity systems to solve real-world problems.
+          </p>
+          <p>
+            I enjoy learning new skills, solving practical problems, and building knowledge that creates meaningful
+            impact in both professional and personal growth.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">CMA</span>
+              <span class="stat-label">Aspirant</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">Yrs AI Tools</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">3</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal delay-2">
+          <div class="info-card">
+            <div class="info-item">
+              <span class="info-icon">🎓</span>
+              <div>
+                <span class="info-label">Education</span>
+                <span class="info-val">CMA Intermediate Level</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">💼</span>
+              <div>
+                <span class="info-label">Focus</span>
+                <span class="info-val">Finance, Tech &amp; Analytics</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">📍</span>
+              <div>
+                <span class="info-label">Location</span>
+                <span class="info-val">India</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">🌐</span>
+              <div>
+                <span class="info-label">Languages</span>
+                <span class="info-val">Hindi (Fluent) · English (Improving)</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">🛠️</span>
+              <div>
+                <span class="info-label">Dev Environment</span>
+                <span class="info-val">VS Code · Termux</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <p class="section-label reveal">Skills</p>
+      <h2 class="section-title reveal delay-1">What I Work With</h2>
+
+      <!-- Data & Analytics -->
+      <div class="skill-category reveal delay-1">
+        <h3 class="cat-title">Data &amp; Analytics</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">📊</div>
+            <h4>Power BI</h4>
+            <p>Interactive dashboards and business intelligence reports.</p>
+            <div class="skill-bar"><div class="skill-fill" style="--w:70%"></div></div>
+            <span class="skill-pct">70%</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🐍</div>
+            <h4>Python</h4>
+            <p>Automation, data analysis, scripting with Pandas &amp; Matplotlib.</p>
+            <div class="skill-bar"><div class="skill-fill" style="--w:72%"></div></div>
+            <span class="skill-pct">72%</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">📈</div>
+            <h4>Data Analytics</h4>
+            <p>Trend analysis, visualisation and turning raw data into insights.</p>
+            <div class="skill-bar"><div class="skill-fill" style="--w:68%"></div></div>
+            <span class="skill-pct">68%</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🗄️</div>
+            <h4>SQL</h4>
+            <p>Database queries, data extraction and reporting.</p>
+            <div class="skill-bar"><div class="skill-fill" style="--w:60%"></div></div>
+            <span class="skill-pct">60%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Productivity Tools -->
+      <div class="skill-category reveal delay-2">
+        <h3 class="cat-title">Productivity &amp; Office Tools</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">📗</div>
+            <h4>Microsoft Excel</h4>
+            <p>Advanced formulas, pivot tables, dashboards and financial modelling.</p>
+            <div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div>
+            <span class="skill-pct">85%</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🖥️</div>
+            <h4>MS Office Suite</h4>
+            <p>Word, PowerPoint, Outlook — professional documentation and presentations.</p>
+            <div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div>
+            <span class="skill-pct">80%</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">💡</div>
+            <h4>Notion</h4>
+            <p>Project management, note-taking and knowledge organisation.</p>
+            <div class="skill-bar"><div class="skill-fill" style="--w:75%"></div></div>
+            <span class="skill-pct">75%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Finance & Compliance -->
+      <div class="skill-category reveal delay-1">
+        <h3 class="cat-title">Finance &amp; Compliance</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">📋</div>
+            <h4>CMA Studies</h4>
+            <p>Cost accounting, management accounting and financial analysis.</p>
+            <div class="skill-bar"><div class="skill-fill" style="--w:75%"></div></div>
+            <span class="skill-pct">75%</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🔧</div>
+            <h4>SAP FI-CO</h4>
+            <p>Financial accounting and controlling modules — power user level.</p>
+            <div class="skill-bar"><div class="skill-fill" style="--w:65%"></div></div>
+            <span class="skill-pct">65%</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🏛️</div>
+            <h4>e-Filing</h4>
+            <p>Income Tax, GST, TDS, ESIC, EPFO and DSC registration.</p>
+            <div class="skill-bar"><div class="skill-fill" style="--w:70%"></div></div>
+            <span class="skill-pct">70%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- AI Tools -->
+      <div class="skill-category reveal delay-2">
+        <h3 class="cat-title">AI &amp; Emerging Tech</h3>
+        <div class="skills-grid ai-grid">
+          <div class="skill-card ai-card">
+            <div class="ai-logo">🤖</div>
+            <h4>ChatGPT</h4>
+            <p>Prompt engineering and workflow automation.</p>
+            <span class="ai-badge">Daily Use</span>
+          </div>
+          <div class="skill-card ai-card">
+            <div class="ai-logo">⚡</div>
+            <h4>Claude AI</h4>
+            <p>Research, writing assistance and analytical tasks.</p>
+            <span class="ai-badge">Daily Use</span>
+          </div>
+          <div class="skill-card ai-card">
+            <div class="ai-logo">🎨</div>
+            <h4>Generative AI</h4>
+            <p>Image generation, creative tools and content workflows.</p>
+            <span class="ai-badge">Regular Use</span>
+          </div>
+          <div class="skill-card ai-card">
+            <div class="ai-logo">🌐</div>
+            <h4>Web Dev</h4>
+            <p>HTML, CSS, JavaScript — building and deploying web projects.</p>
+            <span class="ai-badge">70%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="skill-category reveal delay-1">
+        <h3 class="cat-title">Soft Skills</h3>
+        <div class="soft-skills">
+          <span class="soft-tag">💬 Communication</span>
+          <span class="soft-tag">🧩 Problem Solving</span>
+          <span class="soft-tag">🔍 Analytical Thinking</span>
+          <span class="soft-tag">📚 Continuous Learning</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section class="section section-alt" id="certifications">
+    <div class="container">
+      <p class="section-label reveal">Certifications</p>
+      <h2 class="section-title reveal delay-1">Credentials &amp; Training</h2>
+
+      <div class="cert-grid">
+
+        <div class="cert-card reveal delay-1">
+          <div class="cert-icon">🏛️</div>
+          <div class="cert-body">
+            <span class="cert-org">Nergy 360</span>
+            <h3>e-Filing Training</h3>
+            <p>E-PAN · Income Tax · GST · TDS · ESIC · EPFO · DSC Registration</p>
+          </div>
+          <div class="cert-badge">Completed</div>
+        </div>
+
+        <div class="cert-card reveal delay-2">
+          <div class="cert-icon">💻</div>
+          <div class="cert-body">
+            <span class="cert-org">Microsoft</span>
+            <h3>Office Intermediate Program</h3>
+            <p>Word · Excel · PowerPoint — intermediate level training</p>
+          </div>
+          <div class="cert-badge">Completed</div>
+        </div>
+
+        <div class="cert-card reveal delay-3">
+          <div class="cert-icon">🔧</div>
+          <div class="cert-body">
+            <span class="cert-org">SAP</span>
+            <h3>Finance &amp; Controlling (FI-CO)</h3>
+            <p>Power User Course — SAP FI-CO modules and financial workflows</p>
+          </div>
+          <div class="cert-badge">Completed</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <p class="section-label reveal">Projects</p>
+      <h2 class="section-title reveal delay-1">Things I've Built</h2>
+
+      <div class="projects-grid">
+
+        <div class="project-card reveal delay-1">
+          <div class="project-tag">Python · Analytics</div>
+          <h3>Data Dashboard</h3>
+          <p>Automated dashboard using Python and Pandas that visualises sales data and generates weekly reports.</p>
+          <div class="project-links"><a href="#" class="proj-btn">View Project →</a></div>
+        </div>
+
+        <div class="project-card reveal delay-2">
+          <div class="project-tag">Excel · Finance</div>
+          <h3>Budget Tracker</h3>
+          <p>Excel-based personal and business budget tracker with automated variance analysis and forecasting.</p>
+          <div class="project-links"><a href="#" class="proj-btn">View Project →</a></div>
+        </div>
+
+        <div class="project-card reveal delay-3">
+          <div class="project-tag">Web · HTML / CSS / JS</div>
+          <h3>Portfolio Website</h3>
+          <p>This very site — built from scratch to showcase my skills, certifications and projects.</p>
+          <div class="project-links"><a href="#" class="proj-btn">View Project →</a></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-inner">
+      <span class="logo">SR</span>
+      <p>© 2025 Sourav Rawat &nbsp;·&nbsp; Built with passion</p>
+      <div class="footer-links">
+        <a href="mailto:souravrawat7050@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://www.instagram.com/sourav.thisside" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://t.me/Sourab_Rawat" target="_blank" rel="noopener" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+        <a href="#home" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
